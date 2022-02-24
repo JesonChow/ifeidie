@@ -1,0 +1,27 @@
+*{margin:0;padding:0;border:0;list-style:none;text-decoration:none;color:inherit;font-weight:400;font-family:"微软雅黑";box-sizing:border-box;font-style:normal;outline:0;-webkit-tap-highlight-color:transparent}
+body{width:100%;overflow-x:hidden}
+img{vertical-align:middle;max-width:100%}
+.clearfix:after,.clearfix:before{display:table;line-height:0;content:"";clear: both;}
+.w1200{margin:0 auto;width:1200px;}
+/* 背景标题 */
+.recommend-package{background:#f9f9f9;padding-bottom:100px;height:auto;overflow:hidden}
+.recommend-package .title{position:relative;text-align:center;height:172px;line-height:182px;font-size:32px}
+/* 列表 */
+.recommend-item{position:relative;float:left;background:#fff;transition:transform .3s ease;margin-left:-1px;height:445px;width:300px}
+.recommend-item .title{height:80px;line-height:80px;background:#e4e4e4;font-size:22px;color:#333;text-align:center}
+.recommend-item .box{padding:20px 26px 0 26px}
+.recommend-item .desc{height:75px;line-height:1.8em;font-size:14px;color:#666}
+.recommend-item .config{padding-top:12px;font-size:28px;height: auto;overflow: hidden;}
+.recommend-item .config-unit{font-size:16px}
+.recommend-item .config-item{float:left;text-align:center;color:#333;width:33.3%;height:80px;background:#f7f7f7;margin-top:20px}
+.recommend-item .config-sub{font-size:14px;color:#999}
+.recommend-item .price-row{margin-top:37px;text-align:center;font-size:14px}
+.recommend-item .price{color:#f60;font-size:28px}
+.recommend-item .buy-button{text-align:center;margin-top:20px}
+.recommend-item .buy-button a{display:inline-block;width:177px;height:39px;line-height:38px;border:1px solid #f60;background:#fff;text-align:center;color:#f60}
+.recommend-item .buy-button a:hover{background:#f60;color:#fff}
+.recommend-item .inner{background:#fff;width:300px;height:445px;border:1px solid #d3d3d3}
+.recommend-item.active{z-index:10}
+.recommend-item.active .inner{position:absolute;border-color:#0af;width:310px;height:486px;top:-20px;box-shadow:0 5px 13px rgba(0,0,0,.1)}
+.recommend-item.active .title{background:#0af;color:#fff;height:100px;line-height:103px}
+.recommend-item.active .config{color:#0af}

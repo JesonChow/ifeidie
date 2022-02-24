@@ -1,0 +1,91 @@
+{
+    "header": [
+        " *   ",
+        " *   如非需要调试，本文件可删除",
+        " *   非专业人员可将本文件删除",
+        " *   详细介绍请参考: https://bazhan.me/faq#INFO-JSON",
+        " *   "
+    ],
+    "resources": [
+        {
+            "url": "https://www.17sucai.com/preview/776298/2021-07-02/tc/index.html",
+            "path": "index.html",
+            "saved": true,
+            "size": 9262,
+            "children": [
+                {
+                    "url": "https://www.17sucai.com/preview/776298/2021-07-02/tc/statics/js/jquery.min.js",
+                    "path": "js/jquery.min.js",
+                    "saved": true,
+                    "size": 95992,
+                    "children": []
+                },
+                {
+                    "url": "https://www.17sucai.com/preview/776298/2021-07-02/tc/statics/css/style.css",
+                    "path": "css/style.css",
+                    "saved": true,
+                    "size": 2151,
+                    "children": []
+                }
+            ]
+        }
+    ],
+    "alias": "www-17sucai-com-jnkbg83i",
+    "info": {
+        "request": {
+            "headers": {
+                "accept": "text/html,*/*",
+                "accept-language": "zh-CN,zh;q=0.9",
+                "accept-encoding": "gzip",
+                "cache-control": "no-cache",
+                "cookie": "",
+                "referer": "https://www.17sucai.com/preview/776298/2021-07-02/tc/index.html",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36",
+                "x-scraper-website": "https://bazhan.me/"
+            }
+        },
+        "response": {
+            "redirects": [],
+            "responseUrl": "https://www.17sucai.com/preview/776298/2021-07-02/tc/index.html",
+            "statusCode": 200,
+            "headers": {
+                "server": "Tengine",
+                "content-type": "text/html",
+                "transfer-encoding": "chunked",
+                "connection": "close",
+                "date": "Thu, 24 Feb 2022 05:37:58 GMT",
+                "last-modified": "Fri, 02 Jul 2021 00:47:39 GMT",
+                "vary": "Accept-Encoding",
+                "etag": "W/\"60de622b-26a5\"",
+                "strict-transport-security": "max-age=31536000",
+                "ali-swift-global-savetime": "1645681078",
+                "via": "cache13.l2cn3037[87,87,200-0,M], cache22.l2cn3037[88,0], cache22.l2cn3037[89,0], kunlun8.cn192[99,98,200-0,M], kunlun8.cn192[100,0]",
+                "x-cache": "MISS TCP_MISS dirn:-2:-2",
+                "x-swift-savetime": "Thu, 24 Feb 2022 05:37:58 GMT",
+                "x-swift-cachetime": "0",
+                "timing-allow-origin": "*",
+                "eagleid": "3adad03a16456810779336875e"
+            }
+        },
+        "time": {
+            "start": "2022-02-24T05:37:54.382Z",
+            "end": "2022-02-24T05:38:00.530Z"
+        },
+        "remark": [],
+        "title": "推荐套餐",
+        "ip": "61.160.228.1",
+        "url": "https://www.17sucai.com/preview/776298/2021-07-02/tc/index.html",
+        "main": "index.html",
+        "domain": "www.17sucai.com",
+        "origin": "https://www.17sucai.com",
+        "totalSize": "107 kB"
+    },
+    "options": {
+        "formatter": [],
+        "url": "https://www.17sucai.com/preview/776298/2021-07-02/tc/index.html",
+        "referer": "",
+        "cookies": "",
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36",
+        "filenameGenerator": "byType"
+    }
+}
