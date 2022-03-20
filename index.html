@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -14,28 +15,53 @@
     }
 </style>
 <body>
-    <p>
-        <span id="time">3</span>秒后跳转到活动页面
-    </p>
 
+
+<div style="position: absolute;left:50%;top:50%;transform: translate(-50%, -50%);">
+    <p style="display: none;" id="jabamao">
+        <span id="time">3</span>秒后跳出到其他网站，请注意安全
+    </p>
+        <p style="display: none;font-weight: 800;" id="jabamao2">你可能没有见过下面这么便宜的服务器吧</p>
+<div class="sidebar">
+<a href="https://url.kanfeidie.com/url.php?s=tx"><img src="https://www.ifeidie.cn/wp-content/uploads/2022/03/95afe1c8e615908.jpg"></a><a href="https://url.kanfeidie.com/url.php?s=huawei"><img src="https://www.ifeidie.cn/wp-content/uploads/2022/03/6b20b72d333de69.jpg"></a><a href="https://url.kanfeidie.com/url.php?s=ali"><img src="https://www.ifeidie.cn/wp-content/uploads/2022/03/86318e52f5ed480.jpg"></a>
+</div>
+</div>
+<script type="text/javascript">
+function getQueryVariable(variable)
+{
+       var query = window.location.search.substring(1);
+       var vars = query.split("&");
+       for (var i=0;i<vars.length;i++) {
+               var pair = vars[i].split("=");
+               if(pair[0] == variable){return pair[1];}
+       }
+       return(false);
+}
+</script>
 <script>
     var second=3;
-    var time = document.getElementById("time");
-    function show() {
-        second--;
-        if(second==0){
-            //跳转页面
-            location.href="https://"+"www"+"."+"ifeidie"+"."+"c"+"n/";
-        }
-        //用来动态设置里面的内容
-        time.innerHTML=second+"";
+    var jb=getQueryVariable("link");
+    if (jb!="") {
+            document.getElementById('jabamao').style.display='block';
+            var time = document.getElementById("time");
+            function show() {
+                second--;
+                if(second==0 && jb!=""){
+                    //跳转页面
+                    location.href=getQueryVariable("link");
+                }
+                //用来动态设置里面的内容
+                time.innerHTML=second+"";
 
+            }
+            //用来实现这个一秒实现一次这个方法
+            setInterval(show,1000);
+    }else{
+        document.getElementById('jabamao2').style.display='block';
     }
-    //用来实现这个一秒实现一次这个方法
-    setInterval(show,1000);
+
     
 
 </script>
-
 </body>
 </html>
