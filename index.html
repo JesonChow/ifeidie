@@ -1,62 +1,80 @@
-
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+	<meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+	<title>详情页图片视频采集器 阿里巴巴 淘宝 天猫 京东 拼多多等通用</title>
+	<meta name="description" content="mac和windows通用的一款网店商品图片批量下载采集工具，支持阿里巴巴、天猫、淘宝、抖店、京东、唯品会、速卖通(AliExpress)、苏宁易购、亚马逊(amazon)、拼多多">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" user-scalable="no">
+	<link rel="stylesheet" href="jeson_style/css/style.css">
+	<script src="jeson_style/js/jquery.min.js"></script>
+	<script src="jeson_style/js/style.js"></script>
 </head>
-<style>
-    p{
-        text-align: center;
-        font-size:36px;
-    }
-    #time{
-        color: red;
-    }
-</style>
 <body>
-<div style="position: absolute;left:50%;top:50%;transform: translate(-50%, -50%);width: 1100px;">
-    <p style="display: none;" id="jabamao">
-        <span id="time">3</span>秒后跳出到其他网站，请注意安全
-    </p>
-        <p style="display: none;font-weight: 800;" id="jabamao2">你可能没有见过下面这么便宜的服务器吧</p>
-<div class="sidebar">
-<a href="https://url.kanfeidie.com/url.php?s=tx"><img src="https://www.ifeidie.cn/wp-content/uploads/2022/03/95afe1c8e615908.jpg"></a><a href="https://url.kanfeidie.com/url.php?s=huawei"><img src="https://www.ifeidie.cn/wp-content/uploads/2022/03/6b20b72d333de69.jpg"></a><a href="https://url.kanfeidie.com/url.php?s=ali"><img src="https://www.ifeidie.cn/wp-content/uploads/2022/03/86318e52f5ed480.jpg"></a>
-</div>
-</div>
-<script type="text/javascript">
-function getQueryVariable(variable)
-{
-       var query = window.location.search.substring(1);
-       var vars = query.split("&");
-       for (var i=0;i<vars.length;i++) {
-               var pair = vars[i].split("=");
-               if(pair[0] == variable){return pair[1];}
-       }
-       return(false);
-}
+	<div class="main-group">
+		<div class="user-grou" onclick="newlink();">
+			<img class="user-img" src="jeson_style/picture/user.jpg" alt="">
+			<!--<p class="user-img">下载</p>-->
+		</div>
+		<div class="one-page-group">
+			<div class="left-group">
+				<div class="info-group">
+					<div class="titke">mac和windows通用的一款网店商品图片批量下载采集工具，支持阿里巴巴、天猫、淘宝、抖店、京东、唯品会、速卖通(AliExpress)、苏宁易购、亚马逊(amazon)、拼多多、网易考拉海购、百度爱采购、美丽说、唯品会、苏宁易购、1号店、虾皮网、当当网、青创网等包括但不限于更多的电商平台的详情页图片和主图视频的批量下载。</div>
+					<div class="desc"><a href="https://beian.miit.gov.cn/" target="_blank">鄂ICP备19009803号-3</a></div>
+					
+				</div>
+			</div>
+			<div class="right-group">
+				<div class="info-group">
+					<div class="item">
+						<div class="title">上线时间</div>
+						<div class="desc">2020年</div>
+					</div>
+					<div class="item">
+						<div class="title">系统要求</div>
+						<div class="desc">windows和mac</div>
+					</div>
+					<div class="item">
+						<div class="title">作者微信</div>
+						<div class="desc">jeson9966</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="two-page-group"  style="display: none;">
+			<div class="left-group">
+				<h3>我和我的宠物</h3>
+				<p>几乎您知道的电商平台，都可以下载。
+
+工具支持宝贝详情页图片、主图、sku颜色图以及主图视频的采集下载，操作快捷方便。
+
+支持的平台远远不止上面这些，操作快捷方便，安装后只需要网页右击即可一键下载，一切为了稳定与便捷。</p>
+			</div>
+			<div class="right-group">
+				<ul class="img-group">
+					<li>
+						<img src="jeson_style/picture/111.png" alt="">
+					</li>
+					<li>
+						<img src="jeson_style/picture/112.png" alt="">
+					</li>
+					<li>
+						<img src="jeson_style/picture/113.png" alt="">
+					</li>
+				</ul>
+			</div>
+		</div>
+		
+	</div>
+	
+</body>
+<script>
+	new Action({});
 </script>
 <script>
-    var second=3;
-    var jb=getQueryVariable("link");
-    if (jb!="") {
-            document.getElementById('jabamao').style.display='block';
-            var time = document.getElementById("time");
-            function show() {
-                second--;
-                if(second==0 && jb!=""){
-                    //跳转页面
-                    location.href=getQueryVariable("link");
-                }
-                //用来动态设置里面的内容
-                time.innerHTML=second+"";
-
-            }
-            //用来实现这个一秒实现一次这个方法
-            setInterval(show,1000);
-    }else{
-        document.getElementById('jabamao2').style.display='block';
+    function newlink(){
+        window.location.href='https'+'://'+'www.'+'kanfeidie'+'.com/'+'archives/16213';
     }
 </script>
-</body>
 </html>
